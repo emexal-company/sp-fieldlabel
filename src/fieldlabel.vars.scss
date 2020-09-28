@@ -1,0 +1,30 @@
+/*
+  Copyright 2019 Adobe. All rights reserved.
+  This file is licensed to you under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License. You may obtain a copy
+  of the License at http://www.apache.org/licenses/LICENSE-2.0
+  Unless required by applicable law or agreed to in writing, software distributed under
+  the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR REPRESENTATIONS
+  OF ANY KIND, either express or implied. See the License for the specific language
+  governing permissions and limitations under the License.
+*/
+
+/* Modified by Omar BELKHODJA */
+
+.spectrum-FieldLabel,
+.spectrum-Form {
+  --spectrum-fieldlabel-padding-top: var(--spectrum-global-dimension-size-50);
+  --spectrum-fieldlabel-padding-bottom: var(--spectrum-global-dimension-size-65);
+  --spectrum-fieldlabel-text-size: var(--spectrum-global-dimension-font-size-75);
+  --spectrum-fieldlabel-text-font-weight: var(--spectrum-global-font-weight-regular);
+  --spectrum-fieldlabel-text-line-height: var(--spectrum-global-font-line-height-small);
+  --spectrum-fieldlabel-asterisk-margin-y: var(--spectrum-global-dimension-size-50);
+  --spectrum-fieldlabel-asterisk-gap: var(--spectrum-global-dimension-size-25);
+  --spectrum-fieldlabel-side-padding-top: var(--spectrum-global-dimension-size-100);
+  --spectrum-fieldlabel-side-padding-x: var(--spectrum-global-dimension-size-100);
+  --spectrum-fieldlabel-side-asterisk-margin-y: 0px;
+  --spectrum-fieldlabel-text-color: var(--spectrum-alias-label-text-color);
+  --spectrum-fieldlabel-text-color-disabled: var(--spectrum-alias-text-color-disabled);
+  --spectrum-fieldlabel-asterisk-color-disabled: var(--spectrum-alias-text-color-disabled);
+  --spectrum-fieldlabel-asterisk-color: var(--spectrum-global-color-gray-600);
+}
