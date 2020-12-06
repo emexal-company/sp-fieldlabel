@@ -29,7 +29,6 @@ export class Fieldlabel extends Base {
   @property({ type: Boolean }) public right: boolean = false;
   @property({ type: Boolean }) public disabled: boolean = false;
   @property({ type: Boolean }) public textarea: boolean = false;
-  @property({ type: Boolean }) public style: boolean = false;
   @property({ type: Boolean }) public svg: boolean = false;
   @property({ type: String })  public width: string = '';
   @property({ type: String })  public placeholder: string = '';
